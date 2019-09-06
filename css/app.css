@@ -12,6 +12,16 @@ p {
   color: #6e6e6e;
 }
 
+.navbar-brand {
+  display: inline-block;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 0rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+}
+
 .navbar-brand h1 {
   font-size: 2rem;
   font-weight: 500;
@@ -19,11 +29,21 @@ p {
 
 .navbar-brand span {
   font-weight: 600;
-  color: #ff1a5c;
+  color: #15253b;
+}
+
+.navbar-brand img {
+  width: 120px;
+}
+
+.logoCenter {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
 }
 
 .navbar-light.scrolled {
-  background: #ff1a5c;
+  background: #fff;
 }
 
 .scrolled .navbar-brand span {
@@ -32,26 +52,59 @@ p {
 }
 
 .jumbotron {
-  padding: 8rem 1rem;
+  padding: 12rem 0rem 0rem 0rem;
   margin-bottom: 0rem;
   background-color: #ffffff;
   border-radius: 0.3rem;
   /* color: #fff; */
-  height: 96vh;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(../images/banner.jpg);
+  background-image: url(../images/2.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+footer {
+  background-image: url(../images/2.jpg);
   background-size: cover;
   background-attachment: fixed;
   position: relative;
 }
 
 .display-4 {
-  font-size: 3.5rem;
+  font-size: 4rem;
   font-weight: 800;
   line-height: 1.2;
   font-family: 'Nunito', sans-serif;
+  text-shadow: 1px 2px 3px white;
+}
+
+.bannerTitleBody {
+}
+
+hr.wlcm-line {
+  width: 130px;
+  color: #00a651;
+  height: 9px;
+  float: none;
+  border-top: solid 3px;
+  text-align: center;
+  display: inline-block;
+  background: none;
+  margin-left: -2px;
+  /* margin-bottom: 0; */
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 .about {
   /* background: #241e82; */
@@ -72,12 +125,13 @@ p {
   font-family: 'Nunito', sans-serif;
   margin-top: 6rem;
   margin-bottom: 1rem;
+  /* color: #00a651; */
 }
 
 .about span {
   font-size: 19px;
   font-weight: 500;
-  color: #ff1a5c;
+  color: #15253b;
 }
 
 .about p {
@@ -112,33 +166,33 @@ p {
 /* button */
 .btn-primary {
   color: #fff;
-  background-color: #ff1a5c;
-  border-color: #ff1a5c;
+  background-color: #00a651;
+  border-color: #00a651;
 }
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #ff1a5c;
-  border-color: #ff1a5c;
+  background-color: #00a651;
+  border-color: #00a651;
 }
 
 .btn-primary:not(:disabled):not(.disabled).active,
 .btn-primary:not(:disabled):not(.disabled):active,
 .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #ff1a5c;
-  border-color: #ff1a5c;
+  background-color: #00a651;
+  border-color: #00a651;
 }
 
 .btn-primary:not(:disabled):not(.disabled).active:focus,
 .btn-primary:not(:disabled):not(.disabled):active:focus,
 .show > .btn-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem #ff1a5b2f;
+  box-shadow: 0 0 0 0.2rem #00a6503a;
 }
 
 .btn-primary.focus,
 .btn-primary:focus {
-  box-shadow: 0 0 0 0.2rem #ff1a5b2f;
+  box-shadow: 0 0 0 0.2rem #00a6503a;
 }
 .btn-group-lg > .btn,
 .btn-lg {
@@ -190,7 +244,7 @@ p {
 .loader .face:nth-child(2) {
   width: 70%;
   height: 70%;
-  color: #ff1a5c;
+  color: #15253b;
   border-color: currentColor currentColor transparent transparent;
   border-width: 0.2em 0em 0em 0.2em;
   --deg: -135deg;
@@ -236,7 +290,7 @@ p {
 .features h4 {
   text-align: center;
   font-weight: 600;
-  color: #ff1a5c;
+  color: #15253b;
   font-family: 'Nunito', sans-serif;
 }
 
@@ -248,6 +302,14 @@ p {
   margin-top: 2rem;
   margin-bottom: 1rem;
 }
+.features i {
+  font-size: 40px;
+  text-align: center;
+  display: block;
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+  color: #00a651;
+}
 
 /* app feature end */
 
@@ -255,7 +317,7 @@ p {
 
 .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span {
-  background: #ff1a5c;
+  background: #15253b;
 }
 
 .my-1 .item {
@@ -322,19 +384,19 @@ p {
   background: -webkit-gradient(
     left top,
     right top,
-    color-stop(0%, #ff1a5c),
-    color-stop(98%, #ff1a5c),
-    color-stop(100%, #ff1a5c)
+    color-stop(0%, #15253b),
+    color-stop(98%, #15253b),
+    color-stop(100%, #15253b)
   );
   background: -webkit-gradient(
     linear,
     left top,
     right top,
-    from(#ff1a5c),
-    color-stop(98%, #ff1a5c),
-    to(#ff1a5c)
+    from(#15253b),
+    color-stop(98%, #15253b),
+    to(#15253b)
   );
-  background: linear-gradient(to right, #ff1a5c 0%, #ff1a5c 98%, #ff1a5c 100%);
+  background: linear-gradient(to right, #15253b 0%, #15253b 98%, #15253b 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 25px;
@@ -411,7 +473,7 @@ p {
 
 /* faq */
 .accordionBg {
-  background: #ff1a5c;
+  background: #15253b;
   padding: 0.3rem;
   color: #fff;
   font-size: 20px;
@@ -419,15 +481,16 @@ p {
 }
 
 .faq img {
-  width: 30%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   display: block;
+  box-shadow: 0px 5px 32px #989898;
 }
 /* faq */
 /* newsletter */
 .newsletter {
-  background: #ff1a5c;
+  background: #15253b;
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
@@ -477,7 +540,7 @@ p {
 }
 
 .subscribe2-wrapper .subscribe-form button:hover {
-  color: #ff1a5c;
+  color: #15253b;
 }
 .subscribe2-wrapper .subscribe-form button {
   background: #ffff;
@@ -579,7 +642,7 @@ textarea:focus {
 .footer-area {
   background-size: cover;
   background-position: center center;
-  background: #4c212d;
+  background: #00000059;
 }
 .footer-wrapper {
 }
@@ -639,7 +702,7 @@ textarea:focus {
   width: 55px;
   background: #dee5f9;
   display: inline-block;
-  color: #ff1a5c;
+  color: #15253b;
   font-size: 18px;
   line-height: 55px;
   text-align: center;
@@ -648,15 +711,15 @@ textarea:focus {
   margin-right: 25px;
 }
 .foter2-wrapper .footer-icon a:hover {
-  background: #ff1a5c;
+  background: #15253b;
   color: #fff;
 }
 .foter3-wrapper .footer-icon a {
-  background: #ff1a5c;
+  background: #15253b;
   color: #fff;
 }
 .foter3-wrapper .footer-icon a:hover {
-  background: #ff1a5c;
+  background: #15253b;
   color: #fff;
 }
 
@@ -707,7 +770,7 @@ textarea:focus {
   outline: 0;
 }
 .modal-dialog-scrollable .modal-content {
-  background: #ff1a5c;
+  background: #15253b;
   color: #fff;
 }
 
@@ -746,10 +809,27 @@ textarea:focus {
 
 .enrollForm button {
   color: #fff;
-  background-color: #ff1a5c00;
+  background-color: #15253b00;
   border-color: #fff8fa;
   border-radius: 30px;
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.fotterLogo {
+  background: #fff;
+  display: inline-flex;
+  padding: 1rem;
+  border-radius: 25px;
+}
+
+/*  */
+
+#screen-carousel .owl-item {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  max-height: 22rem;
 }

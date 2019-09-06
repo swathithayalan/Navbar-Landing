@@ -25,27 +25,31 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css"
   /> 
 
+  <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+
    <link rel="stylesheet" href="css/app.css" />
    <link rel="stylesheet" href="css/wickedcss.min.css">
 
      <link rel="stylesheet" href="css/responsive.css" /> 
 
-    <script src="https://kit.fontawesome.com/a44526a545.js"></script>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script> 
 
     <title>Navbar</title>
   </head>
   <body>
     <!-- navbar -->
     <nav class="navbar fixed-top  navbar-expand-lg navbar-light">
-      <div class="container">
+      <div class="container logoCenter">
         <a class="navbar-brand" href="#"
-          ><h1>Navbar<span>.Com</span></h1>
+          >
+          <img src="images/logo.png">
+
         </a>
-        <button
+        <!-- <button
           class="navbar-toggler"
           type="button"
           data-toggle="collapse"
@@ -55,48 +59,9 @@
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
-        </button>
+        </button> -->
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <!-- <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="#"
-                  >Home <span class="sr-only">(current)</span></a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdown"
-                  role="button"
-                  data-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                >
-                  Dropdown
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </div>
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link disabled"
-                  href="#"
-                  tabindex="-1"
-                  aria-disabled="true"
-                  >Disabled</a
-                >
-              </li>
-            </ul> -->
-        </div>
+        
       </div>
     </nav>
     <!-- navabr end -->
@@ -105,27 +70,31 @@
     <div class="jumbotron">
       <div class="container">
         <div class="row">
-          <div class="col-md-7 wow slideRight">
+          <div class="col-md-12 wow slideRight">
+           <div class="bannerTitleBody">
             <h1 class="display-4">
               Creation timelines for the standard lorem ipsum passage vary,
             </h1>
-            <p class="lead">
+            <!-- <p class="lead">
               This is a simple hero unit, a simple jumbotron-style component
-            </p>
-            <hr class="my-4" />
+            </p> -->
+ 
 
-            <a class="btn btn-primary btn-lg mb-5" href="#" role="button"
+            <center><a  href="#contact" class="btn btn-primary btn-lg mb-5 mt-5" href="#" role="button"
               >Learn more</a
-            >
-          </div>
-          <div class="col-md-5 wow slideLefts">
-            <img
-              src="images/banner-scr.png"
-              class="img-fluid"
-              alt="Responsive image"
-            />
-          </div>
+            ></center>
 
+
+       
+          </div>
+          <div>
+            <img
+            src="images/banner-scr.png"
+            class="img-fluid"
+            alt="Responsive image"
+          />
+        </div>
+          </div>
           <!-- <div class="loader">
                 <div class="face">
                   <div class="circle"></div>
@@ -136,6 +105,7 @@
                 </div>
               </div> -->
         </div>
+   
       </div>
     </div>
     <!-- banner end -->
@@ -144,6 +114,7 @@
       <div class="container">
         <span>Project</span>
         <h1 class="wow fadeIn">About</h1>
+       
         <p>
           So how did the classical Latin become so incoherent? According to
           McClintock, a 15th century typesetter likely scrambled part of
@@ -167,6 +138,7 @@
         <div class="container">
           <h1 class="mainTitle">
             Apps Features
+            <hr class="wlcm-line">
           </h1>
           <p>
             But I must explain to you how all this mistaken idea of denouncing
@@ -174,7 +146,8 @@
           </p>
           <div class="row">
             <div class="col-md-6 wow fadeIn">
-              <img src="images/res.png" />
+              <!-- <img src="images/res.png" /> -->
+              <i class="fas fa-chalkboard"></i>
   
               <h4>Fully Responsive</h4>
               <p>
@@ -183,7 +156,8 @@
               </p>
             </div>
             <div class="col-md-6 wow fadeIn">
-              <img src="images/secur.png" />
+              <!-- <img src="images/secur.png" /> -->
+              <i class="fas fa-shield-alt"></i>
               <h4>Granted Security</h4>
               <p>
                 But I must explain to you how all this mistaken idea of denouncing
@@ -191,7 +165,8 @@
               </p>
             </div>
             <div class="col-md-6 wow fadeIn">
-              <img src="images/desi.png" />
+              <!-- <img src="images/desi.png" /> -->
+              <i class="fas fa-palette"></i>
               <h4>Awesome Design</h4>
               <p>
                 But I must explain to you how all this mistaken idea of denouncing
@@ -199,7 +174,8 @@
               </p>
             </div>
             <div class="col-md-6 wow fadeIn">
-              <img src="images/fast.png" />
+              <!-- <img src="images/fast.png" /> -->
+              <i class="fas fa-hourglass-end"></i>
               <h4>Supper Fast</h4>
               <p>
                 But I must explain to you how all this mistaken idea of denouncing
@@ -218,18 +194,27 @@
         <div class="container-fluid">
           <h1 class="mainTitle wow fadeIn">
             Screenshots
+            <hr class="wlcm-line">
           </h1>
   
           <div id="screen-carousel" class="owl-carousel owl-theme wow fadeIn">
               <div class="item">
-                <img src="images/slider-1.webp">
+                <img src="images/slider-1.png">
               </div>
               <div class="item">
-                  <img src="images/slider-2.webp">
+                  <img src="images/slider-2.png">
                 </div>
                 <div class="item">
-                    <img src="images/slider-3.webp">
+                    <img src="images/slider-3.png">
                   </div>
+                  <div class="item">
+                    <img src="images/slider-4.png">
+                  </div>
+  
+                  <div class="item">
+                    <img src="images/slider-5.png">
+                  </div>
+  
   
         </div>
       </section>
@@ -244,6 +229,7 @@
         <div class="container">
           <h1 class="mainTitle wow fadeIn">
               User Feedback
+              <hr class="wlcm-line">
           </h1>
     
 
@@ -277,10 +263,11 @@
 
       <div class="title">
           <h1 class="mainTitle text-white wow fadeIn">Download</h1>
+          <hr class="wlcm-line">
           <p class="text-white text-center">Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Sed Feugiat Arcu Ut Orci Porta, Eget Porttitor Felis Suscipit. Sed A Nisl.</p>
       </div>
-<center> <a class="btn btn-primary btn-lg wow fadeIn" href="#" data-toggle="modal" data-target="#exampleModalScrollable" role="button">Entrol Now</a></center>
-   
+<center> <a class="btn btn-primary btn-lg wow fadeIn" href="#contact" >Entrol Now</a></center>
+<!-- data-toggle="modal" data-target="#exampleModalScrollable" role="button" -->
   </div>
 </div>
 </section>
@@ -291,6 +278,7 @@
     <div class="container">
         <h1 class="mainTitle wow fadeIn">
           faq
+          <hr class="wlcm-line">
         </h1>
 
 <p class="text-center mb-5 wow fadeIn">Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Sed Feugiat Arcu Ut Orci Porta, Eget Porttitor Felis Suscipit. Sed A Nisl.</p>
@@ -339,7 +327,7 @@
 
   </div>
   <div class="col-md-6 wow fadeIn">
-<img src="images/faq.png">
+<img src="images/slider-1.png">
 
   </div>
 </div>
@@ -380,11 +368,12 @@
         
 
 <!-- Contact -->
-<section class="contact mt-5">
+<section id="contact" class="contact mt-5">
     <div class="container">
         <h1 class="mainTitle wow fadeIn">
             Contact Us
           </h1>
+          <hr class="wlcm-line">
       
         <p class="text-center wow fadeIn">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born will give complete account.</p>
 
@@ -403,8 +392,10 @@
                             </div>
                         </div>
                         <div class="contact-btn text-center mt-10">
-                       
-                            <button class="btn btn-primary wow fadeIn">Send message</button>
+                          <a class="btn btn-primary btn-lg mb-5 wow fadeIn" href="#" role="button"
+                          >Send message</a
+                        >
+                           
                         </div>
                     </form>
                 </div>
@@ -421,14 +412,17 @@
 
 <!-- footer -->
 <footer>
-    <div class="footer-area pt-5 pb-5" style="background-image:url(img/bg/4.jpg)">
+    <div class="footer-area pt-5 pb-5">
       <div class="container">
         <div class="row">
           <div class="col-xl-12">
             <div class="footer-wrapper foter3-wrapper text-center">
               <div class="footer-logo wow fadeIn">
-                  <a class="navbar-brand" href="#"><h1>Navbar<span>.Com</span></h1>
-                  </a>
+                <div class="fotterLogo">
+                  <img src="images/logo.png">
+                </div>
+                  <!-- <a class="navbar-brand" href="#"><h1>Navbar<span>.Com</span></h1>
+                  </a> -->
               </div>
               <ul class="footer-link wow fadeIn">
                 <li><a href="#">home</a></li>
@@ -470,6 +464,7 @@
         </div> -->
         <div class="modal-body">
             <h1 class="text-white">Download</h1>
+            <hr class="wlcm-line">
             <form class="enrollForm">
 
                 <div class="form-group">
@@ -500,6 +495,14 @@
   </div>
 <!-- end model -->
     <!-- Optional JavaScript -->
+
+
+    <script src="https://kit.fontawesome.com/a44526a545.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script> 
+
 
     <script src="js/app.js"></script>
     <script src="js/wow.min.js"></script>

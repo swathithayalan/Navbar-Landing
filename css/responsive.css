@@ -15,8 +15,9 @@
     font-size: 3rem;
     font-weight: 800;
     line-height: 1.2;
-    margin-top: 5rem;
+    margin-top: 0rem;
     font-family: 'Nunito', sans-serif;
+    text-shadow: 1px 2px 3px white;
   }
 
   .subscribe2-wrapper .subscribe-form button {
