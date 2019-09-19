@@ -9,7 +9,6 @@ $('#screen-carousel').owlCarousel({
     "<i class='fas fa-angle-left'></i>",
     "<i class='fas fa-angle-right'></i>"
   ],
-
   responsive: {
     0: {
       items: 1
@@ -25,7 +24,6 @@ $('#screen-carousel').owlCarousel({
   autoplayTimeout: 2000,
   autoplayHoverPause: true
 });
-
 // 2nd owl
 $('#testi-carousel').owlCarousel({
   // items : 2,
@@ -37,7 +35,6 @@ $('#testi-carousel').owlCarousel({
     "<i class='fas fa-angle-left'></i>",
     "<i class='fas fa-angle-right'></i>"
   ],
-
   responsive: {
     0: {
       items: 1
@@ -53,7 +50,6 @@ $('#testi-carousel').owlCarousel({
   autoplayTimeout: 2000,
   autoplayHoverPause: true
 });
-
 $(window).scroll(function() {
   $('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
 });
