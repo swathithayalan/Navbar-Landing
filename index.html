@@ -25,27 +25,79 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css"
   /> 
 
+  <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+
    <link rel="stylesheet" href="css/app.css" />
    <link rel="stylesheet" href="css/wickedcss.min.css">
 
      <link rel="stylesheet" href="css/responsive.css" /> 
 
-    <script src="https://kit.fontawesome.com/a44526a545.js"></script>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script> 
 
     <title>Navbar</title>
   </head>
   <body>
     <!-- navbar -->
-    <nav class="navbar fixed-top  navbar-expand-lg navbar-light">
-      <div class="container">
+
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light  myNav">
+
+   
+      <div class="container" id="home">
+
+
         <a class="navbar-brand" href="#"
-          ><h1>Navbar<span>.Com</span></h1>
+          >
+          <img src="images/logo.png">
+
         </a>
-        <button
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+
+          <!-- <div class="navLeftSocial">
+              <i class="fab fa-facebook-f"></i>
+              <i class="fab fa-instagram"></i>
+              <i class="fab fa-twitter"></i>
+          </div> -->
+    
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">About</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#features">Apps Features</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#faq">faq</a>
+                    </li>
+                         <li class="nav-item">
+                  <a class="nav-link" href="#screenshots">Screenshots</a>
+                </li>
+                
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+                
+          
+              </ul>
+             
+            </div>
+          
+
+        <!-- <button
           class="navbar-toggler"
           type="button"
           data-toggle="collapse"
@@ -55,77 +107,50 @@
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
-        </button>
+        </button> -->
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <!-- <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="#"
-                  >Home <span class="sr-only">(current)</span></a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdown"
-                  role="button"
-                  data-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                >
-                  Dropdown
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </div>
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link disabled"
-                  href="#"
-                  tabindex="-1"
-                  aria-disabled="true"
-                  >Disabled</a
-                >
-              </li>
-            </ul> -->
-        </div>
+        
       </div>
     </nav>
     <!-- navabr end -->
 
     <!-- banner -->
+   
+
+
+
+
+
+
+
     <div class="jumbotron">
       <div class="container">
         <div class="row">
-          <div class="col-md-7 wow slideRight">
-            <h1 class="display-4">
-              Creation timelines for the standard lorem ipsum passage vary,
+          <div class="col-md-12 wow slideRight">
+           <div class="bannerTitleBody">
+            <h1 class="display-4 text-center">
+                Construction Facility Management
             </h1>
-            <p class="lead">
+            <!-- <p class="lead">
               This is a simple hero unit, a simple jumbotron-style component
-            </p>
-            <hr class="my-4" />
+            </p> -->
+ 
 
-            <a class="btn btn-primary btn-lg mb-5" href="#" role="button"
+            <center><a   href="#about" class="btn btn-primary btn-lg mb-5 mt-5" href="#" role="button"
               >Learn more</a
-            >
-          </div>
-          <div class="col-md-5 wow slideLefts">
-            <img
-              src="images/banner-scr.png"
-              class="img-fluid"
-              alt="Responsive image"
-            />
-          </div>
+            ></center>
 
+
+       
+          </div>
+          <!-- <div>
+            <img
+            src="images/banner-scr.png"
+            class="img-fluid"
+            alt="Responsive image"
+          />
+        </div> -->
+          </div>
           <!-- <div class="loader">
                 <div class="face">
                   <div class="circle"></div>
@@ -136,37 +161,199 @@
                 </div>
               </div> -->
         </div>
+   
       </div>
     </div>
     <!-- banner end -->
     <!-- about -->
-    <section class="about">
+    <section class="about" id="about">
       <div class="container">
         <span>Project</span>
         <h1 class="wow fadeIn">About</h1>
+       
         <p>
-          So how did the classical Latin become so incoherent? According to
-          McClintock, a 15th century typesetter likely scrambled part of
-          Cicero's De Finibus in order to provide placeholder text to mockup
-          various fonts for a type specimen book.
+            The app is designed to perform the inspection on the job sites, for managing the appliances installed and for managing the issues in the constructions site. 
         </p>
-        <p>
-          It's difficult to find examples of lorem ipsum in use before Letraset
-          made it popular as a dummy text in the 1960s, although McClintock says
-          he remembers coming across the lorem ipsum passage in a book of old
-          metal type samples. So far he hasn't relocated where he once saw the
-          passage, but the popularity of Cicero in the 15th century supports the
-          theory that the filler text has been used for centuries.
-        </p>
+  
       </div>
     </section>
     <!-- end about -->
 
+    <section class="mt-5 mb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+              <h1 class="mainTitle text-left mediumFont">
+                  Intuitive dashboard.
+              Visually rich experience.
+                
+                </h1>
+            
+              <p>Quis lectus nulla at volutpat diam ut venenatis. Faucibus ornare suspendisse</p>
+
+              <ul class="advancedUl">
+                <li><i class="fas fa-caret-right"></i> Instant data visualisation</li>
+                <li><i class="fas fa-caret-right"></i> Get valuable insights</li>
+                <li><i class="fas fa-caret-right"></i> Simplifies complex processes</li>
+              </ul>
+
+              <h1 class="mainTitle text-left mediumFont mt-5">
+                  Advanced reporting.
+                  Track progress at a glance.
+                </h1>
+<p>Nulla pharetra diam sit amet nisl. Facilisis gravida neque convallis a cras semper auctor.</p>
+<ul class="advancedUl">
+    <li><i class="fas fa-caret-right"></i> Get detailed information</li>
+    <li><i class="fas fa-caret-right"></i> Fast access to concise information</li>
+    <li><i class="fas fa-caret-right"></i> Friendly and intuitive interface</li>
+  </ul>
+
+
+          </div>
+          <div class="col-md-6 logoCenter">
+
+            <img
+            src="images/slider-1.png"
+            class="img-fluid img-shadow"
+            alt="Responsive image"
+          />
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- Modules  -->
+<section class="module-section">
+  <div class="container">
+      <h1 class="mainTitle mt-5 pb-4 white-color">
+          Modules of the Product
+          <hr class="wlcm-line">
+
+
+
+
+          <div class="row modul_pro_bg">
+              <div class="col-md-6 offset-md-3">
+             
+                <div class="row flex-column">
+                  <div class="abt-grid">
+                      <div class="row">
+                          <div class="col-3">
+                              <div class="abt-icon">
+                                  <span class="fas fa-map-marked-alt"></span>
+                              </div>
+                          </div>
+                          <div class="col-9">
+                              <div class="abt-txt ml-0">
+                                  <h4>Manage Location</h4>
+              
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="abt-grid mt-4 pt-lg-2">
+                      <div class="row">
+                          <div class="col-3">
+                              <div class="abt-icon">
+                                  <span class="fas fa-sitemap"></span>
+                              </div>
+                          </div>
+                          <div class="col-9">
+                              <div class="abt-txt ml-0">
+                                  <h4>Inspection on Job Sites and Raise Issues</h4>
+              
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              
+                  <div class="abt-grid mt-4 pt-lg-2">
+                      <div class="row">
+                          <div class="col-3">
+                              <div class="abt-icon">
+                                  <span class="fas fa-check"></span>
+                              </div>
+                          </div>
+                          <div class="col-9">
+                              <div class="abt-txt ml-0">
+                                  <h4>Track Issues</h4>
+              
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              
+              
+                      <div class="abt-grid mt-4 pt-lg-2">
+                      <div class="row">
+                          <div class="col-3">
+                              <div class="abt-icon">
+                                  <span class="fas fa-cog"></span>
+                              </div>
+                          </div>
+                          <div class="col-9">
+                              <div class="abt-txt ml-0">
+                                  <h4>Manage Appliances</h4>
+              
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              
+              
+              
+              
+                      <div class="abt-grid mt-4 pt-lg-2">
+                      <div class="row">
+                          <div class="col-3">
+                              <div class="abt-icon">
+                                  <span class="far fa-chart-bar"></span>
+                              </div>
+                          </div>
+                          <div class="col-9">
+                              <div class="abt-txt ml-0">
+                                  <h4>Reports</h4>
+              
+                              </div>
+                          </div>
+                      </div>
+              
+              
+                             <div class="abt-grid mt-4 pt-lg-2">
+                      <div class="row">
+                          <div class="col-3">
+                              <div class="abt-icon">
+                                  <span class="fas fa-tv"></span>
+                              </div>
+                          </div>
+                          <div class="col-9">
+                              <div class="abt-txt ml-0">
+                                  <h4>Admin web portal to manage settings</h4>
+              
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              
+              
+              
+              
+              </div>
+              </div>
+            </div>
+
+         
+
+  </div>
+</section>
+<!-- end Modules  -->
+
      <!-- features -->
-     <section class="features wow fadeIn">
+     <section class="features wow fadeIn mt-5 mb-5" id="features">
         <div class="container">
-          <h1 class="mainTitle">
+          <h1 class="mainTitle mt-5">
             Apps Features
+            <hr class="wlcm-line">
           </h1>
           <p>
             But I must explain to you how all this mistaken idea of denouncing
@@ -174,7 +361,8 @@
           </p>
           <div class="row">
             <div class="col-md-6 wow fadeIn">
-              <img src="images/res.png" />
+              <!-- <img src="images/res.png" /> -->
+              <i class="fas fa-chalkboard"></i>
   
               <h4>Fully Responsive</h4>
               <p>
@@ -183,7 +371,8 @@
               </p>
             </div>
             <div class="col-md-6 wow fadeIn">
-              <img src="images/secur.png" />
+              <!-- <img src="images/secur.png" /> -->
+              <i class="fas fa-shield-alt"></i>
               <h4>Granted Security</h4>
               <p>
                 But I must explain to you how all this mistaken idea of denouncing
@@ -191,7 +380,8 @@
               </p>
             </div>
             <div class="col-md-6 wow fadeIn">
-              <img src="images/desi.png" />
+              <!-- <img src="images/desi.png" /> -->
+              <i class="fas fa-palette"></i>
               <h4>Awesome Design</h4>
               <p>
                 But I must explain to you how all this mistaken idea of denouncing
@@ -199,7 +389,8 @@
               </p>
             </div>
             <div class="col-md-6 wow fadeIn">
-              <img src="images/fast.png" />
+              <!-- <img src="images/fast.png" /> -->
+              <i class="fas fa-hourglass-end"></i>
               <h4>Supper Fast</h4>
               <p>
                 But I must explain to you how all this mistaken idea of denouncing
@@ -212,38 +403,152 @@
   
       <!-- end features -->
 
+
+<!-- users -->
+<section class="mt-5 mb-5" style="display: none">
+
+    <div class="container-fluid">
+  
+      <div class="row">
+        <div class="col-md-6">
+            <img
+            src="images/users.jpg"
+            class="img-fluid"
+            alt="Responsive image"
+          />
+  
+        </div>
+        <div class="col-md-6 user-counterbody">
+  
+          <div class="mb-5"></div>
+            <h1 class="mainTitle text-left mediumFont mt-5">
+                We listen and work together to create a trully unique and unforgettable experience.
+              </h1>
+              <div class="mt-5">
+           <div class="user-counterLeft">
+
+              <h3>250 <i class="fas fa-plus"></i></h3>
+              <p>Active users</p>
+           </div>
+           <div class="user-counterRight">
+              <h3>35 <i class="fas fa-plus"></i></h3>
+              <p>Supported countries</p>
+
+           </div>
+          </div>
+        </div>
+      </div>
+  
+    </div>
+  </section>
+  <!-- users end -->
+      
+ <!-- faq-->
+
+ <section class="faq mt-5 mb-5" id="faq">
+    <div class="container">
+        <h1 class="mainTitle wow fadeIn">
+          faq
+          <hr class="wlcm-line">
+        </h1>
+
+<p class="text-center mb-5 wow fadeIn">Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Sed Feugiat Arcu Ut Orci Porta, Eget Porttitor Felis Suscipit. Sed A Nisl.</p>
+
+<div class="row">
+  <div class="col-md-6 wow fadeIn logoCenter">
+    
+
+      <div class="accordion" id="accordionExample">
+      
+        <div class="accordionBg">
+          <a data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Lorem ipsum dolor sit amet ?</a>
+        </div>
+            
+        
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+              <div class="card-body">
+              <p> Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p> 
+              </div>
+            </div>
+   
+            <div class="accordionBg">
+                <a data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Lorem ipsum dolor sit amet ?</a>
+            </div>
+         
+       
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+              <div class="card-body">
+                  <p> Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p> 
+              </div>
+            </div>
+          
+         
+            <div class="accordionBg">
+                <a  data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Lorem ipsum dolor sit amet ?</a>
+            </div>
+      
+       
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+              <div class="card-body">
+                  <p>  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p> 
+              </div>
+            </div>
+         
+        </div>
+
+  </div>
+  <div class="col-md-6 wow fadeIn">
+<img src="images/users.jpg">
+
+  </div>
+</div>
+
+    </div>
+    </section>
+
+        <!-- faq end-->
+
+        
         <!-- screenshot -->
 
-    <section class="features">
+    <section class="features" id="screenshots">
         <div class="container-fluid">
           <h1 class="mainTitle wow fadeIn">
             Screenshots
+            <hr class="wlcm-line">
           </h1>
   
           <div id="screen-carousel" class="owl-carousel owl-theme wow fadeIn">
               <div class="item">
-                <img src="images/slider-1.webp">
+                <img src="images/slider-1.png">
               </div>
               <div class="item">
-                  <img src="images/slider-2.webp">
+                  <img src="images/slider-2.png">
                 </div>
                 <div class="item">
-                    <img src="images/slider-3.webp">
+                    <img src="images/slider-3.png">
                   </div>
+                  <div class="item">
+                    <img src="images/slider-4.png">
+                  </div>
+  
+                  <div class="item">
+                    <img src="images/slider-5.png">
+                  </div>
+  
   
         </div>
       </section>
   
       <!-- screenshot end-->
 
-      
-
       <!-- testi -->
 
-      <section class="mb-5">
+      <section class="mb-5 mt-5">
         <div class="container">
           <h1 class="mainTitle wow fadeIn">
               User Feedback
+              <hr class="wlcm-line">
           </h1>
     
 
@@ -275,116 +580,30 @@
     <div class="overlay gradient">
   <div class="container">
 
-      <div class="title">
+      <div class="title mt-5">
           <h1 class="mainTitle text-white wow fadeIn">Download</h1>
+          <hr class="wlcm-line">
           <p class="text-white text-center">Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Sed Feugiat Arcu Ut Orci Porta, Eget Porttitor Felis Suscipit. Sed A Nisl.</p>
       </div>
-<center> <a class="btn btn-primary btn-lg wow fadeIn" href="#" data-toggle="modal" data-target="#exampleModalScrollable" role="button">Entrol Now</a></center>
-   
+<center> <a class="btn btn-primary btn-lg wow fadeIn" href="#contact" data-toggle="modal" data-target="#exampleModalCenter">Entrol Now</a></center>
+<!-- data-toggle="modal" data-target="#exampleModalScrollable" role="button" -->
   </div>
 </div>
 </section>
       <!-- download  end-->
- <!-- faq-->
 
- <section class="faq">
-    <div class="container">
-        <h1 class="mainTitle wow fadeIn">
-          faq
-        </h1>
 
-<p class="text-center mb-5 wow fadeIn">Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Sed Feugiat Arcu Ut Orci Porta, Eget Porttitor Felis Suscipit. Sed A Nisl.</p>
-
-<div class="row">
-  <div class="col-md-6 wow fadeIn">
-    
-
-      <div class="accordion" id="accordionExample">
-      
-        <div class="accordionBg">
-          <a data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Lorem ipsum dolor sit amet ?</a>
-        </div>
-            
-        
-            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-              <div class="card-body">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-              </div>
-            </div>
-   
-            <div class="accordionBg">
-                <a data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Lorem ipsum dolor sit amet ?</a>
-            </div>
-         
-       
-            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-              <div class="card-body">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-              </div>
-            </div>
-          
-         
-            <div class="accordionBg">
-                <a  data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Lorem ipsum dolor sit amet ?</a>
-            </div>
-      
-       
-            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-              <div class="card-body">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-              </div>
-            </div>
-         
-        </div>
-
-  </div>
-  <div class="col-md-6 wow fadeIn">
-<img src="images/faq.png">
-
-  </div>
-</div>
-
-    </div>
-    </section>
-
-        <!-- faq end-->
-
-            <!-- newsletter -->
-
-        
- <section class="newsletter mt-5">
-    <div class="container">
-        <div class="row">
-            <div class="col-xl-4 col-lg-4">
-              <div class="subscribe-text mb-15 wow fadeIn">
-                <span>JOIN OUR NEWSLETTER</span>
-                <h2>subscribe newsletter</h2>
-              </div>
-            </div>
-            <div class="col-xl-8 col-lg-8">
-              <div class="subscribe-wrapper subscribe2-wrapper mb-15">
-                <div class="subscribe-form wow fadeIn">
-                  <form action="#">
-                    <input placeholder="enter your email address" type="email">
-                    <button>subscribe <i class="fas fa-long-arrow-alt-right"></i></button>
-                  </form>
-                </div>
-              </div>
-            </div>
-          </div>
-    </div>
-    </section>
-
-        <!-- newsletter end -->
+     
 
         
 
 <!-- Contact -->
-<section class="contact mt-5">
+<section id="contact" class="contact mt-5">
     <div class="container">
         <h1 class="mainTitle wow fadeIn">
             Contact Us
           </h1>
+          <hr class="wlcm-line">
       
         <p class="text-center wow fadeIn">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born will give complete account.</p>
 
@@ -403,8 +622,10 @@
                             </div>
                         </div>
                         <div class="contact-btn text-center mt-10">
-                       
-                            <button class="btn btn-primary wow fadeIn">Send message</button>
+                          <a class="btn btn-primary btn-lg mb-5 wow fadeIn" href="#" role="button"
+                          >Send message</a
+                        >
+                           
                         </div>
                     </form>
                 </div>
@@ -418,19 +639,49 @@
 
 <!-- Contact end-->
 
+       <!-- newsletter -->
+
+        
+       <section class="newsletter mt-5">
+          <div class="container">
+              <div class="row">
+                  <div class="col-xl-4 col-lg-4">
+                    <div class="subscribe-text mb-15 wow fadeIn">
+                      <span>JOIN OUR NEWSLETTER</span>
+                      <h2>subscribe newsletter</h2>
+                    </div>
+                  </div>
+                  <div class="col-xl-8 col-lg-8">
+                    <div class="subscribe-wrapper subscribe2-wrapper mb-15">
+                      <div class="subscribe-form wow fadeIn">
+                        <form action="#">
+                          <input placeholder="enter your email address" type="email">
+                          <button>subscribe <i class="fas fa-long-arrow-alt-right"></i></button>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+          </div>
+          </section>
+      
+              <!-- newsletter end -->
 
 <!-- footer -->
 <footer>
-    <div class="footer-area pt-5 pb-5" style="background-image:url(img/bg/4.jpg)">
+    <div class="footer-area pt-5 pb-5">
       <div class="container">
         <div class="row">
           <div class="col-xl-12">
             <div class="footer-wrapper foter3-wrapper text-center">
               <div class="footer-logo wow fadeIn">
-                  <a class="navbar-brand" href="#"><h1>Navbar<span>.Com</span></h1>
-                  </a>
+                <div class="fotterLogo">
+                  <img src="images/logo.png">
+                </div>
+                  <!-- <a class="navbar-brand" href="#"><h1>Navbar<span>.Com</span></h1>
+                  </a> -->
               </div>
-              <ul class="footer-link wow fadeIn">
+              <!-- <ul class="footer-link wow fadeIn">
                 <li><a href="#">home</a></li>
                 <li><a href="#">Features</a>  </li>
                 <li><a href="#">Statistics</a></li>
@@ -438,11 +689,11 @@
                 <li><a href="#">Screenshots</a></li>
                 <li><a href="#">Testimonials</a></li>
                 <li><a href="#">Download</a></li>
-              </ul>
-              <div class="footer-icon wow fadeIn">
+              </ul> -->
+              <div class="footer-icon wow fadeIn mt-5">
                 <a href="#"><i class="fab fa-facebook-f"></i></a>
                 <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-google-plus-g"></i></a>
+       
                 <a href="#"><i class="fab fa-instagram"></i></a>
                 <a href="#"><i class="fab fa-tumblr"></i></a>
               </div>
@@ -470,6 +721,7 @@
         </div> -->
         <div class="modal-body">
             <h1 class="text-white">Download</h1>
+            <hr class="wlcm-line">
             <form class="enrollForm">
 
                 <div class="form-group">
@@ -500,6 +752,51 @@
   </div>
 <!-- end model -->
     <!-- Optional JavaScript -->
+
+
+    <!-- Button trigger modal -->
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+    
+        <div class="modal-body">
+
+            <h1 class="mainTitle wow fadeIn mediumFont">
+               Please Confirm Some of Your's Information
+              </h1>
+            <form style="padding: 2rem;">
+
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Name</label>
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter name">
+                  </div>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Email</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Contact Number</label>
+                    <input type="tel" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter contact number">
+                  </div>
+             
+                <center><button type="submit" class="btn btn-primary mt-5">Submit</button></center>
+              </form>
+        </div>
+    
+      </div>
+    </div>
+  </div>
+
+
+    <script src="https://kit.fontawesome.com/a44526a545.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script> 
+
 
     <script src="js/app.js"></script>
     <script src="js/wow.min.js"></script>

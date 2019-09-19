@@ -53,7 +53,7 @@ $('#testi-carousel').owlCarousel({
   autoplayTimeout: 2000,
   autoplayHoverPause: true
 });
-// nav scroll
+
 $(window).scroll(function() {
-  $("nav").toggleClass("scrolled", $(this).scrollTop() > 50);
+  $('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
 });
