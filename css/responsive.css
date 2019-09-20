@@ -86,12 +86,19 @@
 }
 
 @media only screen and (max-width: 667px) {
+  .contact-form input {
+    width: 100%;
+  }
+
+  .contact-form textarea {
+    width: 100%;
+  }
   .modulName {
     padding: 1rem 0rem;
   }
 
   .mainTitle {
-    font-weight: 700;
+    font-weight: 600;
     font-size: 27px;
     line-height: 50px;
     letter-spacing: 0.25px;
@@ -99,8 +106,8 @@
   }
 
   .modulName h4 {
-    font-size: 19px;
-    font-weight: 500;
+    font-size: 17px;
+    font-weight: 300;
     letter-spacing: 0.51px;
   }
   .abt-icon {
@@ -114,7 +121,7 @@
     text-align: left;
     line-height: 64px;
     letter-spacing: 1px;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 43px;
     color: rgb(255, 255, 255);
     text-decoration: none;

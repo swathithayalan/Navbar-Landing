@@ -1166,4 +1166,42 @@ textarea:focus {
 .module-row {
   margin-bottom: 2rem;
   display: flex;
+  background: #15253bba;
+  padding: 8px;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.module-section ul {
+  list-style: none;
+  font-size: 18px;
+  padding: 8px;
+}
+
+.module-section li {
+  display: flex;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.module-section ul i {
+  font-size: 26px;
+  padding-right: 11px;
+  color: #414e60;
+}
+
+.module-Arrow {
+  font-size: 20px;
+  color: #fff;
+  position: relative;
+  top: 1.7rem;
+  left: -3px;
+}
+
+.modulName h4 {
+  font-size: 18px;
+  font-weight: 400;
+}
+.module-section img {
+  cursor: pointer;
 }
