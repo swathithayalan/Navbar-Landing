@@ -1,9 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Muli:300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=Muli:300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&display=swap'); */
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
 
 /* pink ff1a5c */
 
 body {
-  font-family: 'Muli', sans-serif;
+  /* font-family: 'Muli', sans-serif; */
+  font-family: 'Poppins', sans-serif;
 }
 
 p {
@@ -25,7 +27,7 @@ p {
   color: rgb(226, 226, 226);
   letter-spacing: 1px;
   font-size: 15px;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .navbar-light .navbar-nav .nav-link:focus,
@@ -163,7 +165,7 @@ footer {
   text-align: left;
   line-height: 65px;
   letter-spacing: 1px;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 60px;
   color: rgb(255, 255, 255);
   text-decoration: none;
@@ -211,8 +213,8 @@ hr {
 
 .mainTitle {
   color: #0b2341;
-  font-weight: 700;
-  font-size: 40px;
+  font-weight: 500;
+  font-size: 35px;
   line-height: 50px;
   letter-spacing: -0.75px;
   text-align: center;
