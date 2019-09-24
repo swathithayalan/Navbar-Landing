@@ -67,7 +67,7 @@ p {
 
 .navbar-brand span {
   font-weight: 600;
-  color: #15253b;
+  color: #37474f;
 }
 
 .navbar-nav {
@@ -81,7 +81,7 @@ p {
 }
 
 .navbar-brand img {
-  width: 85px;
+  /* width: 85px; */
 }
 
 .logoCenter {
@@ -91,7 +91,7 @@ p {
 }
 
 .navbar-light.scrolled {
-  background: #00a651;
+  background: #1565c0;
 }
 
 .navbar-light {
@@ -117,14 +117,14 @@ p {
 }
 
 .scrolled .navbar-brand {
-  color: rgba(0, 0, 0, 0.9);
-  background: #fff;
-  border-radius: 10px;
-  padding: 0.5rem;
+  /* color: rgba(0, 0, 0, 0.9);
+  background: #fff; */
+  /* border-radius: 10px;
+  padding: 0.5rem; */
 }
 
 .scrolled .nav-link:hover {
-  color: #0b2341 !important;
+  color: #37474f !important;
 }
 
 .navbar-brand span {
@@ -179,7 +179,7 @@ footer {
 
 hr.wlcm-line {
   width: 130px;
-  color: #00a651;
+  color: #1565c0;
   height: 9px;
   float: none;
   border-top: solid 3px;
@@ -194,7 +194,7 @@ hr.wlcm-line {
 }
 
 hr {
-  margin-top: 1rem;
+  margin-top: 0rem;
   margin-bottom: 1rem;
   border: 0;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
@@ -207,21 +207,21 @@ hr {
 }
 
 .about h1 {
-  font-size: 2rem;
-  font-weight: 700;
+  font-size: 1.8rem;
 }
 
 .mainTitle {
-  color: #0b2341;
+  color: #37474f;
   font-weight: 500;
-  font-size: 35px;
+  font-size: 29px;
   line-height: 50px;
-  letter-spacing: -0.75px;
+  letter-spacing: 0.25px;
   text-align: center;
 }
 
 .mediumFont {
-  font-size: 30px;
+  font-size: 21px;
+  line-height: 25px;
 }
 
 .text-left {
@@ -229,9 +229,9 @@ hr {
 }
 
 .about span {
-  font-size: 19px;
+  font-size: 14px;
   font-weight: 500;
-  color: #15253b;
+  color: #696969;
 }
 
 /* .about p {
@@ -267,22 +267,22 @@ hr {
 
 .btn-primary {
   color: #fff;
-  background-color: #00a651;
-  border-color: #00a651;
+  background-color: #1565c0;
+  border-color: #1565c0;
 }
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #00a651;
-  border-color: #00a651;
+  background-color: #1565c0;
+  border-color: #1565c0;
 }
 
 .btn-primary:not(:disabled):not(.disabled).active,
 .btn-primary:not(:disabled):not(.disabled):active,
 .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #00a651;
-  border-color: #00a651;
+  background-color: #1565c0;
+  border-color: #1565c0;
 }
 
 .btn-primary:not(:disabled):not(.disabled).active:focus,
@@ -299,9 +299,10 @@ hr {
 .btn-group-lg > .btn,
 .btn-lg {
   padding: 0.5rem 1rem;
-  font-size: 1.25rem;
+  font-size: 1rem;
   line-height: 1.5;
   border-radius: 4rem;
+  letter-spacing: 1px;
 }
 
 /* button */
@@ -346,7 +347,7 @@ hr {
 .loader .face:nth-child(2) {
   width: 70%;
   height: 70%;
-  color: #15253b;
+  color: #37474f;
   border-color: currentColor currentColor transparent transparent;
   border-width: 0.2em 0em 0em 0.2em;
   --deg: -135deg;
@@ -392,8 +393,9 @@ hr {
 
 .features h4 {
   text-align: center;
-  font-weight: 600;
-  color: #15253b;
+  font-weight: 500;
+  color: #1565c0;
+  font-size: 20px;
 }
 
 .features img {
@@ -411,7 +413,7 @@ hr {
   display: block;
   margin-bottom: 1rem;
   margin-top: 0.5rem;
-  color: #00a651;
+  color: #1565c0;
 }
 
 /* app feature end */
@@ -420,7 +422,7 @@ hr {
 
 .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span {
-  background: #15253b;
+  background: #37474f;
 }
 
 .my-1 .item {
@@ -493,19 +495,19 @@ hr {
   background: -webkit-gradient(
     left top,
     right top,
-    color-stop(0%, #15253b),
-    color-stop(98%, #15253b),
-    color-stop(100%, #15253b)
+    color-stop(0%, #37474f),
+    color-stop(98%, #37474f),
+    color-stop(100%, #37474f)
   );
   background: -webkit-gradient(
     linear,
     left top,
     right top,
-    from(#15253b),
-    color-stop(98%, #15253b),
-    to(#15253b)
+    from(#37474f),
+    color-stop(98%, #37474f),
+    to(#37474f)
   );
-  background: linear-gradient(to right, #15253b 0%, #15253b 98%, #15253b 100%);
+  background: linear-gradient(to right, #37474f 0%, #37474f 98%, #37474f 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 25px;
@@ -592,7 +594,7 @@ hr {
 /* faq */
 
 .accordionBg {
-  background: #15253b;
+  background: #37474f;
   padding: 0.3rem;
   color: #fff;
   font-size: 20px;
@@ -612,7 +614,7 @@ hr {
 /* newsletter */
 
 .newsletter {
-  background: #15253b;
+  background: #37474f;
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
@@ -662,7 +664,7 @@ hr {
 }
 
 .subscribe2-wrapper .subscribe-form button:hover {
-  color: #15253b;
+  color: #37474f;
 }
 
 .subscribe2-wrapper .subscribe-form button {
@@ -778,11 +780,10 @@ textarea:focus {
 .footer-logo {
 }
 .fotterLogo img {
-  width: 100px;
+  /* width: 100px; */
   display: block;
   margin-left: auto;
   margin-right: auto;
-  .;
 }
 
 .footer-link {
@@ -849,7 +850,7 @@ textarea:focus {
   width: 55px;
   background: #dee5f9;
   display: inline-block;
-  color: #15253b;
+  color: #37474f;
   font-size: 18px;
   line-height: 55px;
   text-align: center;
@@ -859,17 +860,17 @@ textarea:focus {
 }
 
 .foter2-wrapper .footer-icon a:hover {
-  background: #15253b;
+  background: #37474f;
   color: #fff;
 }
 
 .foter3-wrapper .footer-icon a {
-  background: #15253b;
+  background: #37474f;
   color: #fff;
 }
 
 .foter3-wrapper .footer-icon a:hover {
-  background: #15253b;
+  background: #37474f;
   color: #fff;
 }
 
@@ -923,7 +924,7 @@ textarea:focus {
 }
 
 .modal-dialog-scrollable .modal-content {
-  background: #15253b;
+  background: #37474f;
   color: #fff;
 }
 
@@ -963,7 +964,7 @@ textarea:focus {
 
 .enrollForm button {
   color: #fff;
-  background-color: #15253b00;
+  background-color: #37474f00;
   border-color: #fff8fa;
   border-radius: 30px;
   display: block;
@@ -1001,7 +1002,7 @@ textarea:focus {
 
 .advancedUl i {
   font-size: 20px;
-  color: #00a651;
+  color: #1565c0;
   margin-right: 9px;
 }
 
@@ -1045,12 +1046,12 @@ textarea:focus {
 
 .user-counterRight i {
   font-size: 36px;
-  color: #00a651;
+  color: #1565c0;
 }
 
 .user-counterLeft i {
   font-size: 36px;
-  color: #00a651;
+  color: #1565c0;
 }
 
 .user-counterbody {
@@ -1107,10 +1108,10 @@ textarea:focus {
   height: 80px;
   border: solid;
   border-width: 3px;
-  border-top-color: #0b2341;
-  border-bottom-color: #00a651;
-  border-left-color: #00a651;
-  border-right-color: #0b2341;
+  border-top-color: #37474f;
+  border-bottom-color: #1565c0;
+  border-left-color: #1565c0;
+  border-right-color: #37474f;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -1166,9 +1167,9 @@ textarea:focus {
 .module-row {
   margin-bottom: 2rem;
   display: flex;
-  background: #15253bba;
+  background: #37474f;
   padding: 8px;
-  border-radius: 100px;
+  border-radius: 10px;
   cursor: pointer;
 }
 
