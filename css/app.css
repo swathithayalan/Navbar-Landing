@@ -6,12 +6,14 @@
 body {
   /* font-family: 'Muli', sans-serif; */
   font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
 }
 
 p {
   font-size: 16px;
-  color: #8a8a8a;
+  color: #565656;
   letter-spacing: 0.5px;
+  line-height: 30px;
 }
 
 .nav-left-social i {
@@ -145,12 +147,16 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(../images/slider-4.jpg);
+  background-image: url(../images/banner.jpg);
   background-size: cover;
   position: relative;
-  top: -9rem;
+  /* top: -9rem; */
 }
 
+.bannerTitleBody {
+  position: relative;
+  top: -10rem;
+}
 footer {
   /* background-image: url(../images/footer.jpg);
   background-size: cover;
@@ -204,10 +210,25 @@ hr {
   /* background: #241e82; */
   padding-top: 3rem;
   padding-bottom: 3rem;
+  background: url(../images/about.jpg) no-repeat bottom;
+  background-size: cover;
+  position: relative;
+}
+
+#fotter {
+  /* background: #241e82; */
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background: url(../images/slider-4.jpg);
+  background-size: cover;
+  position: relative;
 }
 
 .about h1 {
-  font-size: 1.8rem;
+  font-size: 1.2em;
+  color: #212529;
+  letter-spacing: 1px;
+  font-weight: 700;
 }
 
 .mainTitle {
@@ -385,6 +406,13 @@ hr {
 }
 
 /* app feature */
+
+.features-box {
+  visibility: visible;
+  animation-name: fadeIn;
+  background: #d3f2fb;
+  padding: 1rem;
+}
 
 .features p {
   text-align: center;
@@ -830,7 +858,7 @@ textarea:focus {
 .footer-icon a {
   height: 60px;
   width: 60px;
-  background: #fff;
+
   display: inline-block;
   color: #324963;
   font-size: 18px;
@@ -973,7 +1001,6 @@ textarea:focus {
 }
 
 .fotterLogo {
-  background: #fff;
   display: inline-flex;
   padding: 1rem;
   border-radius: 25px;
@@ -994,10 +1021,15 @@ textarea:focus {
 
 .advancedUl {
   list-style: none;
-  padding: 0;
-  color: #8a8a8a;
-  line-height: 2.2rem;
-  font-size: 15px;
+  padding: 1rem;
+  color: #ffffff;
+  line-height: 3.2rem;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.3px;
+  background: #1565c0;
+  margin: 2rem;
+  border-radius: 10px;
 }
 
 .advancedUl i {
@@ -1108,10 +1140,10 @@ textarea:focus {
   height: 80px;
   border: solid;
   border-width: 3px;
-  border-top-color: #37474f;
+  border-top-color: #d3f2fb;
   border-bottom-color: #1565c0;
   border-left-color: #1565c0;
-  border-right-color: #37474f;
+  border-right-color: #d3f2fb;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -1205,4 +1237,105 @@ textarea:focus {
 }
 .module-section img {
   cursor: pointer;
+}
+
+/*-- features --*/
+
+.feature-grids img {
+  font-size: 2em;
+  vertical-align: middle;
+  background: #d3f2fb;
+  width: 120px;
+  height: 120px;
+  line-height: 2.7em;
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  -webkit-border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  -o-border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  -moz-border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  -ms-border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  margin: 0.5em 0;
+  padding: 1rem;
+}
+
+.about-hover:hover .feature-grids img {
+  background: #1565c0;
+}
+
+/*-- //features --*/
+
+/*-- //scroll-mouse --*/
+.scroll-downs {
+  position: absolute;
+  top: 37rem;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: 34px;
+  height: 55px;
+}
+.mousey {
+  width: 3px;
+  padding: 10px 15px;
+  height: 35px;
+  border: 2px solid #fff;
+  border-radius: 25px;
+  opacity: 0.75;
+  box-sizing: content-box;
+}
+.scroller {
+  width: 3px;
+  height: 10px;
+  border-radius: 25%;
+  background-color: #fff;
+  animation-name: scroll;
+  animation-duration: 2.2s;
+  animation-timing-function: cubic-bezier(0.15, 0.41, 0.69, 0.94);
+  animation-iteration-count: infinite;
+}
+@keyframes scroll {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(15px);
+    opacity: 0;
+  }
+}
+
+#topButton {
+  display: inline-block;
+  background-color: #1565c0;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border-radius: 3px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 90000000000;
+}
+
+#topButton:hover {
+  cursor: pointer;
+  background-color: #333;
+}
+#topButton:active {
+  background-color: #555;
+}
+#topButton.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+#topButton img {
+  width: 23px;
+  margin-top: 8px;
 }
