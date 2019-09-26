@@ -86,9 +86,6 @@
 }
 
 @media only screen and (max-width: 667px) {
-  .jumbotron {
-    background-image: url(../images/mobile-banner1.jpg);
-  }
   .contact-form input {
     width: 100%;
   }
