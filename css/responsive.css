@@ -132,16 +132,6 @@
 }
 
 @media only screen and (max-width: 550px) {
-  .scroll-downs {
-    position: absolute;
-    top: 25rem;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    margin: auto;
-    width: 34px;
-    height: 55px;
-  }
   .navbar-nav {
     display: -ms-flexbox;
     display: flex;
