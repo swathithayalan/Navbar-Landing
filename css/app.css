@@ -1,5 +1,6 @@
 /* @import url('https://fonts.googleapis.com/css?family=Muli:300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&display=swap'); */
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Tangerine:400,700&display=swap');
 
 /* pink ff1a5c */
 
@@ -165,8 +166,7 @@ footer {
 }
 
 .display-4 {
-  z-index: 5;
-  font-family: inherit;
+  /* z-index: 5;
   visibility: visible;
   text-align: left;
   line-height: 65px;
@@ -178,6 +178,13 @@ footer {
   white-space: normal;
   transform-origin: 50% 50% 0px;
   transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+  font-family: 'Tangerine', cursive; */
+  color: #fff;
+  letter-spacing: 4px;
+  font-size: 4.5em;
+  text-shadow: 2px 5px 3px rgba(0, 0, 0, 0.27);
+  font-family: 'Tangerine', cursive;
+  font-weight: bold;
 }
 
 .bannerTitleBody {
